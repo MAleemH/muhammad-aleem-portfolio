@@ -1,0 +1,39 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 375px;
+	height: 718px;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 48px;
+}
+
+.introduction {
+	display: flex;
+	flex-direction: column;
+	height: 604px;
+}
+
+.header {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 52px;
+}
+
+.intro {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.profiles {
+	display: flex;
+	gap: 20px;
+}
