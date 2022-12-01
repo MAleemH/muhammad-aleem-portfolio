@@ -1,7 +1,9 @@
+body {
+  background: #e5e5e5;
+}
 .container {
   display: flex;
   flex-direction: column;
-  width: 375px;
   height: 718px;
   padding: 20px;
   background: #fff;
