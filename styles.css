@@ -25,7 +25,7 @@
   width: 117px;
   height: 24px;
   text-decoration: none;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -34,7 +34,7 @@
 }
 
 .header {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -42,7 +42,7 @@
 }
 
 .intro {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
