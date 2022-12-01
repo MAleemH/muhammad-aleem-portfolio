@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 718px;
+  padding: 20px;
+  background: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+}
+
+.introduction {
+  background-image: url("header-shapes mobile.png");
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 604px;
+}
+
+.introduction a {
+  width: 117px;
+  height: 24px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.header {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.intro {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.profiles {
+  padding-left: 0%;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  border: none;
+  width: 93px;
+  height: 48px;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.button:hover {
+  color: #fff;
+  background: #6070ff;
+}
+
+.button:active {
+  color: #fff;
+  background: #2230d2;
+}
