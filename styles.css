@@ -4,7 +4,7 @@
   width: 375px;
   height: 718px;
   padding: 20px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .navbar {
@@ -61,15 +61,15 @@
   width: 93px;
   height: 48px;
   border-radius: 15px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .button:hover {
-  color: #ffffff;
+  color: #fff;
   background: #6070ff;
 }
 
 .button:active {
-  color: #ffffff;
+  color: #fff;
   background: #2230d2;
 }
