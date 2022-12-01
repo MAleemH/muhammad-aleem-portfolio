@@ -16,7 +16,7 @@ In order to run this project you need Git, Code Editor and Web Browser
 
 ### Setup
 
-Clone this repository to your desired folder by using Git.
+Clone this "https://github.com/MAleemH/muhammad-aleem-portfolio.git" repository to your desired folder by using Git.
 
 ### Usage
 
@@ -50,7 +50,7 @@ To run the project, open index.html file.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/MAleemH/muhammad-aleem-portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
