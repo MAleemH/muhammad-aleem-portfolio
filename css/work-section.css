@@ -1,0 +1,46 @@
+.grid-container {
+  display: grid;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 100px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.canopy {
+  display: flex;
+}
+
+.canopy-ul {
+  display: flex;
+}
+
+.languages {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  padding-left: 0%;
+  
+}
+
+.languages li {
+  background: #ebebff;
+  border-radius: 8px;
+  align-items: center;
+padding: 4px 12px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #6070ff;
+}
