@@ -50,13 +50,6 @@
   justify-content: space-between;
 }
 
-.languages-section {
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
 .others-section-ii {
   height: 50px;
   border-bottom: 2px solid #eee;
@@ -64,4 +57,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
-\n
+
+.languages-section {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
