@@ -7,6 +7,7 @@ body {
   height: 718px;
   padding: 20px;
   background: #fff;
+  border-bottom-left-radius: 100px;
 }
 
 .navbar {
@@ -60,6 +61,9 @@ body {
 }
 
 .button {
+  font-family: 'Poppins', sans-serif;
+  color: #7f8cff;
+  text-decoration: none;
   border: none;
   width: 93px;
   height: 48px;
