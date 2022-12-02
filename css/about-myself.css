@@ -3,11 +3,13 @@
   font-style: normal;
   display: flex;
   flex-direction: column;
-  background: #FFFFFF;
+  background: #fff;
   margin-top: 100px;
   padding-top: 100px;
+  padding-bottom: 100px;
   border-top-right-radius: 100px;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .resume-btn-border {
@@ -42,23 +44,23 @@
 }
 
 .others-section-i {
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .languages-section {
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .others-section-ii {
-    height: 50px;
-    border-bottom: 2px solid #eeeeee;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  height: 50px;
+  border-bottom: 2px solid #eeeeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
