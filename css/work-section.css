@@ -163,7 +163,7 @@ h6 {
     align-self: center;
     margin-top: 0;
   }
-  
+
   .portfolio-image-2 {
     background-image: url("../images/dt-multi-post.png");
     width: 544px;
@@ -173,7 +173,7 @@ h6 {
     margin-top: 0;
     order: 2;
   }
-  
+
   .portfolio-image-3 {
     background-image: url("../images/dt-fb.png");
     width: 544px;
@@ -182,7 +182,7 @@ h6 {
     align-self: center;
     margin-top: 0;
   }
-  
+
   .portfolio-image-4 {
     background-image: url("../images/dt-uber.png");
     width: 544px;
@@ -237,7 +237,7 @@ h6 {
     font-size: 18px;
     line-height: 24px;
   }
-  
+
   .client-dt-ul {
     display: flex;
     gap: 30px;
@@ -257,7 +257,7 @@ h6 {
     gap: 5px;
     padding-left: 0%;
   }
-  
+
   .dt-languages li {
     background: #ebebff;
     border-radius: 8px;

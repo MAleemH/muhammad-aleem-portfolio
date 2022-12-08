@@ -90,7 +90,7 @@ body {
 
 /* css for desktop version */
 
-@media only screen and (min-width: 768px)  {
+@media only screen and (min-width: 768px) {
   .container {
     height: 916px;
     background: #fff;
@@ -107,9 +107,9 @@ body {
   .nav-options-ul {
     display: flex;
     flex-direction: row;
-    gap: 10px;  
+    gap: 10px;
     list-style: none;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -131,7 +131,7 @@ body {
   .intro-area {
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding: 0;
     gap: 12px;
     width: 920px;
     height: 268px;
