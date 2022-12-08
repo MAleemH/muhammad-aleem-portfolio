@@ -1,3 +1,4 @@
+/* css for mobile version */
 body {
   background: #e5e5e5;
   margin: 0%;
@@ -81,4 +82,17 @@ body {
 .button:active {
   color: #fff;
   background: #2230d2;
+}
+
+/* css for desktop version */
+
+@media only screen and (min-width: 768px)  {
+  .union {
+    display: none;
+  }
+  
+  .nav-options-ul {
+    display: flex;
+    flex-direction: row;
+  }
 }
