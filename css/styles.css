@@ -20,6 +20,10 @@ body {
   height: 48px;
 }
 
+.nav-options {
+  display: none;
+}
+
 .introduction {
   background-image: url("../images/header-shapes mobile.png");
   background-size: 100%;
@@ -87,12 +91,66 @@ body {
 /* css for desktop version */
 
 @media only screen and (min-width: 768px)  {
+  .container {
+    height: 916px;
+    background: #fff;
+  }
+
   .union {
     display: none;
   }
-  
+
+  .nav-options {
+    display: flex;
+  }
+
   .nav-options-ul {
     display: flex;
     flex-direction: row;
+    gap: 10px;  
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .nav-options-ul-li-a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .introduction {
+    background-image: url("../images/dt-header-bg.png");
+    width: 1397.4px;
+    height: 721.46px;
+    left: 34.6px;
+    top: 119px;
+  }
+
+  .intro-area {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 12px;
+    width: 920px;
+    height: 268px;
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+
+  .header {
+    font-weight: 700;
+    font-size: 48px;
+    color: #091e42;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
+
+  .intro {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
   }
 }
