@@ -153,6 +153,11 @@ h6 {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin-top: 50px;
+    
+  }
+
+  .work-description {
+    margin: 10px;
   }
 
   .portfolio-image-1 {
@@ -161,7 +166,7 @@ h6 {
     height: 448px;
     border-radius: 8px;
     align-self: center;
-    margin-top: 0;
+    margin: 10;
   }
 
   .portfolio-image-2 {
@@ -170,7 +175,7 @@ h6 {
     height: 448px;
     border-radius: 8px;
     align-self: center;
-    margin-top: 0;
+    margin: 10;
     order: 2;
   }
 
@@ -180,7 +185,7 @@ h6 {
     height: 448px;
     border-radius: 8px;
     align-self: center;
-    margin-top: 0;
+    margin: 10;
   }
 
   .portfolio-image-4 {
@@ -189,7 +194,7 @@ h6 {
     height: 448px;
     border-radius: 8px;
     align-self: center;
-    margin-top: 0;
+    margin: 10;
     order: 2;
   }
 
