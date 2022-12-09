@@ -197,6 +197,13 @@ h6 {
     order: 2;
   }
 
+  .portfolio-image-1:hover,
+  .portfolio-image-2:hover,
+  .portfolio-image-3:hover,
+  .portfolio-image-4:hover {
+    transform: scale(1.1);
+  }
+
   .project-title {
     display: none;
   }

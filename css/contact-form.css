@@ -87,4 +87,12 @@ input,
   .contact-button {
     align-self: center;
   }
+
+  .form-input::placeholder {
+    transition: 1s;
+  }
+
+  .form-input:hover::placeholder {
+    transform: translate(5px, 0);
+  }
 }
