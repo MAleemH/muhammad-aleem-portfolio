@@ -91,6 +91,20 @@ body {
 /* css for desktop version */
 
 @media only screen and (min-width: 768px) {
+  .logo {
+    animation-name: rotate360;
+    animation-duration: 2s;
+  }
+
+  @keyframes rotate360 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
   .container {
     height: 916px;
     background: #fff;
