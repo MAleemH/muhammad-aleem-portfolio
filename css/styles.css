@@ -1,3 +1,4 @@
+/* css for mobile version */
 body {
   background: #e5e5e5;
   margin: 0%;
@@ -17,6 +18,10 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 48px;
+}
+
+.nav-options {
+  display: none;
 }
 
 .introduction {
@@ -81,4 +86,80 @@ body {
 .button:active {
   color: #fff;
   background: #2230d2;
+}
+
+/* css for desktop version */
+
+@media only screen and (min-width: 768px) {
+  .container {
+    height: 916px;
+    background: #fff;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 400px;
+    align-items: center;
+    height: 72px;
+  }
+
+  .union {
+    display: none;
+  }
+
+  .nav-options {
+    display: flex;
+  }
+
+  .nav-options-ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .nav-options-ul-li-a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .introduction {
+    background-image: url("../images/dt-header-bg.png");
+    width: 100%;
+    height: 721.46px;
+    left: 34.6px;
+    top: 119px;
+  }
+
+  .intro-area {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 12px;
+    width: 920px;
+    height: 268px;
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+
+  .header {
+    font-weight: 700;
+    font-size: 48px;
+    color: #091e42;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
+
+  .intro {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
 }

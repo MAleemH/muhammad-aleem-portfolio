@@ -1,3 +1,5 @@
+/* css for mobile */
+
 .contact-me {
   border-top-left-radius: 100px;
   height: 680px;
@@ -10,7 +12,11 @@
   padding-bottom: 100px;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.contact-container {
   background-image: url("../images/contact-form shapes.png");
+  background-size: 100%;
 }
 
 .contact-heading {
@@ -61,4 +67,24 @@ input,
   font-weight: 500;
   font-size: 17px;
   color: #6070ff;
+}
+
+/* css for desktop */
+
+@media only screen and (min-width: 768px) {
+  .contact-container {
+    background-image: url("../images/dt-contact-form.png");
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-item {
+    width: 500px;
+  }
+
+  .contact-button {
+    align-self: center;
+  }
 }
