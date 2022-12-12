@@ -20,7 +20,7 @@ Clone this "https://github.com/MAleemH/muhammad-aleem-portfolio.git" repository 
 
 ### Usage
 
-To run the project, open index.html file.
+To run the project, click https://maleemh.github.io/muhammad-aleem-portfolio/.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
