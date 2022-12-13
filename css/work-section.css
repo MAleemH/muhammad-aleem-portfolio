@@ -230,6 +230,12 @@ h3 {
     color: #344563;
   }
 
+  .p2:hover {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
   .client,
   .client-ul {
     display: none;
