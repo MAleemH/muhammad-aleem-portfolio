@@ -177,4 +177,10 @@ body {
     line-height: 28px;
     color: #344563;
   }
+
+  .intro:hover {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+  }
 }
