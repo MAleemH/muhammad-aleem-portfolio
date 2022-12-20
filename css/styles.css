@@ -5,7 +5,7 @@ body {
 }
 
 body.active {
-  background: #6070FF;
+  background: #6070ff;
   overflow-y: hidden;
 }
 
@@ -72,7 +72,7 @@ body.active {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #fff;
-  font-weight: 60px;
+  font-weight: 60;
   font-size: 32px;
   line-height: 44px;
   transition: 0.1s;
