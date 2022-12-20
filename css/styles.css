@@ -4,7 +4,9 @@ body {
   margin: 0%;
 }
 
-.b_active {
+body.active {
+  background: #6070FF;
+
   overflow-y: hidden;
 }
 
@@ -61,7 +63,7 @@ body {
   gap: 0;
   flex-direction: column;
   background-color: #6070ff;
-  mix-blend-mode: multiply;
+  /* mix-blend-mode: multiply; */
   width: 100%;
   text-align: left;
   font-family: 'Poppins', sans-serif;
@@ -71,7 +73,8 @@ body {
   font-size: 32px;
   line-height: 44px;
   transition: 0.1s;
-  height: fit-content;
+  height: 100vh;
+  margin-top: 70px;
 }
 
 .nav-menu * {
