@@ -8,9 +8,7 @@ body.active {
   background: #6070FF;
   overflow-y: hidden;
 }
-.introduction.active {
-  filter: blur(5px);
-}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -42,6 +40,8 @@ body.active {
 
 .hamburger {
   display: block;
+  position: relative;
+  z-index: 1;
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -50,22 +50,23 @@ body.active {
 
 .hamburger.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
+  background-color: white;
 }
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
 }
 
 .nav-menu {
   position: fixed;
   list-style: none;
-  top: 0%;
+  top: -5%;
   left: -1000%;
   gap: 0;
   flex-direction: column;
-  background-color: rgba(96, 112, 255, 0.9);
-  background-size: cover;
-  /* mix-blend-mode: multiply; */
+  background-color: #6070ff;
+  opacity: 0.9;
   width: 100%;
   text-align: left;
   font-family: 'Poppins', sans-serif;
@@ -76,7 +77,7 @@ body.active {
   line-height: 44px;
   transition: 0.1s;
   height: 100vh;
-  margin-top: 0px;
+  padding-top: 80px;
 }
 
 .nav-menu * {
@@ -87,9 +88,6 @@ body.active {
 .nav-options {
   margin: 16px 0;
 }
-
-
-
 
 .nav-menu.active {
   left: 0;
