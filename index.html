@@ -11,37 +11,41 @@
     <link rel="stylesheet" type="text/css" href="css/work-section.css">
     <link rel="stylesheet" type="text/css" href="css/about-myself.css">
     <link rel="stylesheet" type="text/css" href="css/contact-form.css">
-    <!-- javaScript -->
-    <script src="javaScript/javascript.js"></script>
   </head>
   <body>
     <section class="container">
       <!-- navbar -->
       <nav class="navbar">
 
-        <div class="logo">
-          <img alt="Portfolio-Logo" src="images/my_logo.png">
+        <img class="logo" alt="Portfolio-Logo" src="images/my_logo.png">
+
+        <ul class="nav-options-ul">
+
+          <li class="nav-options-ul-li"><a class="nav-options-ul-li-a" href="#portfolio">Portfolio</a></li>
+          <li class="nav-options-ul-li"><a class="nav-options-ul-li-a" href="#about">About</a></li>
+          <li class="nav-options-ul-li"><a class="nav-options-ul-li-a" href="#contact">Contact</a></li>
+
+        </ul>
+
+        <!-- for mobile -->
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
 
-        <div class="union">
-          <img alt="More-Options-Button" src="images/union.png">
-        </div>
+        <ul class="nav-menu">
 
-        <div class="nav-options">
+          <li class="nav-options"><a class="nav-options-ul-li-a" href="#portfolio">Portfolio</a></li>
+          <li class="nav-options"><a class="nav-options-ul-li-a" href="#about">About</a></li>
+          <li class="nav-options"><a class="nav-options-ul-li-a" href="#contact">Contact</a></li>
 
-          <ul class="nav-options-ul">
-
-            <li class="nav-options-ul-li"><a class="nav-options-ul-li-a" href="">Portfolio</a></li>
-            <li class="nav-options-ul-li"><a class="nav-options-ul-li-a" href="">About</a></li>
-            <li class="nav-options-ul-li"><a class="nav-options-ul-li-a" href="">Contact</a></li>
-
-          </ul>
-
-        </div>
+        </ul>
 
       </nav>
       <!-- introduction -->
-      <div class="introduction">
+      <div class="introduction" id="portfolio">
         <div class="intro-area">
           <h1 class="header">
             I'm Aleem <br>
@@ -61,7 +65,7 @@
       </div>
     </section>
     <!-- "Works" section -->
-    <section class="works-section">
+    <section class="works-section" id="work">
 
       <div class="grid-container">
 
@@ -243,7 +247,7 @@
 
     </section>
     <!-- About Myself -->
-    <section class="about-myself">
+    <section class="about-myself" id="about">
 
       <div class="flex-container">
 
@@ -292,7 +296,7 @@
 
     </section>
     <!-- Contact Me -->
-    <footer class="contact-me">
+    <footer class="contact-me" id="contact">
 
       <div class="contact-container">
 
@@ -320,5 +324,9 @@
       </div>
 
     </footer>
+
+    <!-- javaScript -->
+    <script src="javaScript/javascript.js"></script>
+    
   </body>
 </html>
