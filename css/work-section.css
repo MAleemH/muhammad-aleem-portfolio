@@ -234,7 +234,7 @@ h3 {
   border-radius: 8px;
 }
 
-.popup-portfolio-image-1 {
+.popup-portfolio-image {
   background-image: url("../images/portfolio_1.png");
   width: 295px;
   height: 220px;
@@ -429,7 +429,7 @@ h3 {
     gap: 5px;
   }
 
-  .popup-portfolio-image-1 {
+  .popup-portfolio-image {
     background-image: url("../images/dt-tonic.png");
     width: 544px;
     height: 448px;

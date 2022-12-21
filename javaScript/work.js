@@ -7,7 +7,7 @@ const cardsButton = document.querySelectorAll('.btn-border');
 const myProjects = [
 
   {
-    title: 'Uber Navigation',
+    title: 'Tonic',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
     scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
@@ -20,7 +20,7 @@ const myProjects = [
   },
 
   {
-    title: 'Multi-Post Stories Gain+Glory',
+    title: 'Multi-Post Stories',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
     scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
@@ -33,7 +33,7 @@ const myProjects = [
   },
 
   {
-    title: 'Multi-Post Stories',
+    title: 'Facebook 360',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
     scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
@@ -46,7 +46,7 @@ const myProjects = [
   },
 
   {
-    title: 'Facebook 360',
+    title: 'Uber Navigation',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
     scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
@@ -61,7 +61,6 @@ const myProjects = [
 ];
 
 cardsButton.forEach((item, i) => item.addEventListener('click', () => {
-  
   const project = myProjects[i];
   const popContainer = document.querySelector('.modal');
 
@@ -69,7 +68,7 @@ cardsButton.forEach((item, i) => item.addEventListener('click', () => {
   popupTitle.textContent = project.title;
   const popupDescription = popContainer.querySelector('.description');
   popupDescription.textContent = project.description;
-  const popupImage = popContainer.getElementsByClassName('popup-image');
+  const popupImage = popContainer.querySelector('.popup-portfolio-image');
   popupImage.src = project.featuredImage;
   const popupThechnology = popContainer.querySelectorAll('.dt-languages');
   popupThechnology.forEach((item, i) => {
