@@ -58,6 +58,7 @@ h3 {
 
 .languages {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   gap: 5px;
   padding-left: 0%;
@@ -241,6 +242,10 @@ h3 {
   border-radius: 8px;
   align-self: center;
   margin-top: 3px;
+}
+
+.popup-image {
+  display: none;
 }
 
 #overlay {
@@ -430,7 +435,12 @@ h3 {
   }
 
   .popup-portfolio-image {
+    display: none;
+  }
+
+  .popup-image {
     background-image: url("../images/dt-tonic.png");
+    display: block;
     width: 544px;
     height: 448px;
     border-radius: 8px;
