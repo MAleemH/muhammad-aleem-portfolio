@@ -135,6 +135,10 @@ h3 {
 
 /* popup window */
 
+.dt-popup {
+  display: none;
+}
+
 .modal {
   position: fixed;
   top: 50%;
@@ -394,6 +398,7 @@ h3 {
 
   .dt-languages {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     gap: 5px;
     padding-left: 0%;
@@ -414,5 +419,27 @@ h3 {
   }
 
   /* popup window */
-  
+
+  .mob-popup {
+    display: none;
+  }
+
+  .dt-popup {
+    display: flex;
+    gap: 5px;
+  }
+
+  .popup-portfolio-image-1 {
+    background-image: url("../images/dt-tonic.png");
+    width: 544px;
+    height: 448px;
+    border-radius: 8px;
+    align-self: center;
+    margin: 10px 50px;
+  }
+
+  .modal-btn {
+    border-top: none;
+    gap: 3px;
+  }
 }
