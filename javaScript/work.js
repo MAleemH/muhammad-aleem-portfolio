@@ -67,7 +67,7 @@ cardsButton.forEach((item, i) => item.addEventListener('click', () => {
 
   const popupTitle = popContainer.querySelector('.title');
   popupTitle.textContent = project.title;
-  const popupDescription = popContainer.querySelector('.popup-description');
+  const popupDescription = popContainer.querySelector('.description');
   popupDescription.textContent = project.description;
   const popupImage = popContainer.getElementsByClassName('popup-image');
   popupImage.src = project.featuredImage;
