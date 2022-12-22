@@ -21,7 +21,7 @@ const inputText = document.querySelectorAll('.form-input');
 const dataStored = {
   name: '',
   email: '',
-  textarea: ''
+  textarea: '',
 };
 inputText.forEach((input) => {
   input.addEventListener('input', () => {
