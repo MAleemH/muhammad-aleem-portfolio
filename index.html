@@ -69,6 +69,71 @@
 
       <div class="grid-container">
 
+        <!-- popup -->
+
+        <div class="modal" id="modal">
+
+          <div class="modal-header">
+
+            <div class="title">Tonic</div>
+            
+            <button data-close-button class="close-button">&times;</button>
+            
+          </div>
+
+          <div class="modal-body">
+
+            <div class="popup-client">
+              <h3 class="popup-client-heading">CANOPY</h3>
+              <ul class="popup-client-ul">
+                <li>Back End Dev</li>
+                <li>2015</li>
+              </ul>
+            </div>
+            <img class="popup-portfolio-image" src="images/portfolio_1.png" alt="Portfolio-Image">
+            <img class="popup-image" src="images/dt-fb.png" alt="Portfolio-Image">
+            <!-- for mobile -->
+            <div class="mob-popup">
+              <div class="description">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+              </div>
+              <ul class="languages">
+                <li class="tech"></li>
+                <li class="tech"></li>
+                <li class="tech"></li>
+              </ul>
+              <div class="modal-btn">
+                <a href="" class="button popup-btn" id="live">See Live <img src="images/arrow-icon.png" alt="Arrow-Image"></a>
+                <a href="" class="button popup-btn" id="source">See Source <img src="images/github-icon.png" alt="GitHub-Image"></a>
+              </div>
+            </div>
+            <!-- for desktop -->
+            <div class="dt-popup">
+              <div class="description">
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+              </div>
+              <div>
+                <ul class="dt-languages">
+                  <li class="tech2"></li>
+                  <li class="tech2"></li>
+                  <li class="tech2"></li>
+                  <li class="tech2"></li>
+                  <li class="tech2"></li>
+                  <li class="tech2"></li>
+                </ul>
+                <div class="modal-btn">
+                  <a href="" class="button popup-btn" id="live">See Live <img src="images/arrow-icon.png" alt="Arrow-Image"></a>
+                  <a href="" class="button popup-btn" id="source">See Source <img src="images/github-icon.png" alt="GitHub-Image"></a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+        <!-- overlay -->
+        <div id="overlay"></div>
+
         <!-- item 1: tonic -->
         <div class="grid-item">
           
@@ -76,6 +141,7 @@
           
           <div class="work-description">
             <h2 class="project-title">Tonic</h2>
+            <!-- for desktop -->
             <h2 class="project-title-dt">Tonic</h2>
 
             <div class="client">
@@ -85,6 +151,7 @@
                 <li>2015</li>
               </ul>
             </div>
+            <!-- for desktop -->
             <div class="client-dt">
               <h3>CANOPY</h3>
               <ul class="client-dt-ul">
@@ -94,20 +161,22 @@
             </div>
 
             <p class="p1">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <!-- for desktop -->
             <p class="p2">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-
+            
             <ul class="languages">
               <li>html</li>
               <li>css</li>
               <li>javaScript</li>
             </ul>
+            <!-- for desktop -->
             <ul class="dt-languages">
               <li>html</li>
               <li>css</li>
               <li>javaScript</li>
             </ul>
 
-            <a href="" class="button btn-border">See Project</a>
+            <button data-modal-target="#modal" type="button" class="button btn-border">See Project</button>
           </div>
 
         </div>
@@ -151,7 +220,7 @@
               <li>javaScript</li>
             </ul>
 
-            <a href="" class="button btn-border">See Project</a>
+            <button data-modal-target="#modal" type="button" class="button btn-border">See Project</button>
           </div>
 
         </div>
@@ -194,7 +263,7 @@
               <li>javaScript</li>
             </ul>
 
-            <a href="" class="button btn-border">See Project</a>
+            <button data-modal-target="#modal" type="button" class="button btn-border">See Project</button>
           </div>
 
         </div>
@@ -238,7 +307,7 @@
               <li>javaScript</li>
             </ul>
 
-            <a href="" class="button btn-border">See Project</a>
+            <button data-modal-target="#modal" type="button" class="button btn-border">See Project</button>
           </div> 
 
         </div>
@@ -327,6 +396,6 @@
 
     <!-- javaScript -->
     <script src="javaScript/javascript.js"></script>
-    
+    <script src="javaScript/work.js"></script>
   </body>
 </html>
