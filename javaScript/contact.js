@@ -16,3 +16,22 @@ function validate() {
 formButton.addEventListener('click', () => {
   validate();
 });
+// store data
+const inputText = document.querySelectorAll('.form-input');
+const dataStored = {
+  name: '',
+  email: '',
+  textarea: '',
+};
+inputText.forEach((input) => {
+  input.addEventListener('input', () => {
+    dataStored[input.name] = input.value;
+    localStorage.setItem('everyData', JSON.stringify(dataStored));
+  });
+});
+const formStored = JSON.parse(localStorage.getItem('everyData'));
+if (formStored) {
+  inputText.forEach((element) => {
+    element.value = formStored[element.name];
+  });
+}
