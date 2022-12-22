@@ -16,3 +16,10 @@ function validate() {
 formButton.addEventListener('click', () => {
   validate();
 });
+// store data
+const inputText = document.querySelectorAll('.form-input');
+const dataStored = {
+  name: '',
+  email: '',
+  textarea: ''
+};
